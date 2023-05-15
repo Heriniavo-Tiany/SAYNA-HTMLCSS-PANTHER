@@ -241,3 +241,46 @@ body {
 }
 
 /* END FOOTER*/
+
+/*--------------ENIGMES--------------------*/
+/*HERO*/
+.right {
+    float: right; /* Float on the right side */
+    width: 50%; /* Adjust width as needed */
+
+}
+
+.main-contentEnigme {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+
+    background-image: url('./assets/Enigme/Pantherenigme1.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.enigmeHero {
+    background: linear-gradient(to right, #010101, #263654);
+
+}
+
+.textEnigme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textEnigme img {
+    margin-bottom: -333px; /* Adjust the value to create overlap */
+}
+
+.line {
+    margin-top: 100px;
+}
+
+/*ENDHERO*/
