@@ -294,4 +294,37 @@ body {
 .transcript {
     margin: 0 100px;
 }
+
+.emphase {
+    max-width: 432px;
+}
+
+.enigmeHero form {
+    margin-top: 100px;
+}
+
+#reponse {
+    margin: 20px 100px;
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+
+#submit {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border-color: var(--light-pink);
+    background-color: var(--light-pink);
+    margin: 20px 260px 100px;
+
+}
+
+#submit:hover {
+    box-shadow:  #F2CEF2 2px 2px 4px;
+}
+
 /*END CONTENT*/
