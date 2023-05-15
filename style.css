@@ -8,6 +8,29 @@
     --dark-blue: #021740;
 }
 
+.white{
+    color: var(--white);
+}
+.light-pink{
+    color: var(--light-pink);
+}
+.pink{
+    color: var(--pink);
+}
+.lavender{
+    color: var(--lavender);
+}
+.purple{
+    color: var(--purple);
+}
+.blue{
+    color: var(--blue);
+}
+.dark-blue{
+    color: var(--dark-blue);
+}
+
+
 @font-face {
     font-family: Panthera;
     src: url('./fonts/panthera.otf') format('opentype');
@@ -96,3 +119,25 @@ body {
 }
 
 /*END NAVBAR*/
+
+/*HERO SECTION*/
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.main-content{
+    background-image: url('./assets/Wakanda/Pantherwakanda1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*END HERO SECTION*/
