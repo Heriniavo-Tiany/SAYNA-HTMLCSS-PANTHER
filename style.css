@@ -173,6 +173,20 @@ body {
     flex: 1;
 }
 
+@media (max-width: 800px) {
+    .text-columns {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px; /* Adjust the gap between columns */
+        justify-content: center; /* Center columns vertically */
+        align-items: center; /* Center columns horizontally */
+    }
+
+    .column {
+        flex: none; /* Remove flex grow to allow columns to wrap */
+        width: 100%; /* Set column width to 100% */
+    }
+}
+
 .column h2 {
     margin-top: 100px;
 }
