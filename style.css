@@ -287,7 +287,7 @@ body {
 
 
 /*CONTENT*/
-.enigmeHero h2{
+.enigmeHero h2 {
     padding: 100px 0;
     margin: 0 100px;
 }
@@ -325,7 +325,7 @@ body {
 }
 
 #submit:hover {
-    box-shadow:  #F2CEF2 2px 2px 4px;
+    box-shadow: #F2CEF2 2px 2px 4px;
 }
 
 /*END CONTENT*/
@@ -368,8 +368,8 @@ body {
     max-width: 400px;
 }
 
-.profile h2{
-   text-align: center;
+.profile h2 {
+    text-align: center;
 }
 
 .profile button {
@@ -384,7 +384,7 @@ body {
     text-align: center;
 }
 
-.profile span{
+.profile span {
     font-weight: bold;
 }
 
@@ -416,4 +416,48 @@ body {
     top: -255px;
     left: 76px;
 }
+
 /*END PROFIL*/
+
+/*CONTACT*/
+.contact {
+    background-image: url('./assets/Accueil/Pantherhome7.png');
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contact form {
+    padding: 20px 60px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    width: fit-content;
+    border-radius: 134px;
+}
+
+.contact input {
+    width: 520px;
+    height: 56px;
+    border-radius: 38px;
+    padding-left: 10px;
+}
+
+textarea {
+    padding: 10px;
+    width: 520px;
+    border-radius: 10px;
+}
+
+#envoyer {
+    width: 174px;
+    height: 54px;
+    border-radius: 38px;
+    border-color: var(--light-pink);
+    background-color: var(--light-pink);
+    margin: 20px 260px 0;
+
+}
+
+#envoyer:hover {
+    box-shadow: #021740 2px 2px 4px;
+}
+
+/*END CONTACT*/
