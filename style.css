@@ -358,3 +358,38 @@ body {
 }
 
 /*END PERSO*/
+
+
+/*PROFIL*/
+.profile {
+    background-color: #FFFFFF;
+    border-radius: 38px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.profile h2{
+   text-align: center;
+}
+
+.profile button {
+    background-color: var(--purple);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    min-width: 92px;
+}
+
+.btns {
+    text-align: center;
+}
+
+.profile span{
+    font-weight: bold;
+}
+
+.profile p {
+    font-family: Cantarell, Arial, sans-serif;
+}
+
+/*END PROFIL*/
