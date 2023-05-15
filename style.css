@@ -176,4 +176,7 @@ body {
     margin-top: 100px;
 }
 
+.column p {
+    text-align: justify;
+}
 /*END CONTENT*/
