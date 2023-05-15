@@ -1,0 +1,46 @@
+:root {
+    --white: #FFFFFF;
+    --light-pink: #F2CEF2;
+    --pink: #DF99F2;
+    --lavender: #9E91B7;
+    --purple: #3D2DA6;
+    --blue: #07338C;
+    --dark-blue: #021740;
+}
+
+@font-face {
+    font-family: Panthera;
+    src: url('./fonts/panthera.otf') format('opentype');
+}
+
+
+@font-face {
+    font-family: BEYNO;
+    src: url('./fonts/BEYNO.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Cantarell;
+    src: url('./fonts/Cantarell.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: WakandaForever;
+    src: url('./fonts/WakandaForever-Regular.ttf') format('truetype');
+}
+
+.panthera {
+    font-family: Panthera, Arial, sans-serif;
+}
+
+.beyno {
+    font-family: BEYNO, Arial, sans-serif;
+}
+
+.cantarell {
+    font-family: Cantarell, Arial, sans-serif;
+}
+
+.wakanda {
+    font-family: Cantarell, Arial, sans-serif;
+}
