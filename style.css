@@ -8,25 +8,31 @@
     --dark-blue: #021740;
 }
 
-.white{
+.white {
     color: var(--white);
 }
-.light-pink{
+
+.light-pink {
     color: var(--light-pink);
 }
-.pink{
+
+.pink {
     color: var(--pink);
 }
-.lavender{
+
+.lavender {
     color: var(--lavender);
 }
-.purple{
+
+.purple {
     color: var(--purple);
 }
-.blue{
+
+.blue {
     color: var(--blue);
 }
-.dark-blue{
+
+.dark-blue {
     color: var(--dark-blue);
 }
 
@@ -135,11 +141,12 @@ body {
     max-width: 500px;
 }
 
-.main-content{
+.main-content {
     background-image: url('./assets/Wakanda/Pantherwakanda1.jpg');
     background-size: cover;
     background-position: center;
 }
+
 /*END HERO SECTION*/
 
 /*CONTENT*/
@@ -194,6 +201,7 @@ body {
 .column p {
     text-align: justify;
 }
+
 /*END CONTENT*/
 
 /*FOOTER*/
@@ -224,6 +232,12 @@ body {
 
 .center-images img {
     margin-bottom: -215px; /* Adjust the value to create overlap */
+}
+
+@media (max-width: 800px) {
+    .footerImg {
+        display: none;
+    }
 }
 
 /* END FOOTER*/
