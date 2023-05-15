@@ -77,7 +77,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to right, #0E1829, #263654);
+    background: linear-gradient(to right, #010101, #263654);
     padding: 25px 10px;
 }
 
@@ -141,3 +141,39 @@ body {
     background-position: center;
 }
 /*END HERO SECTION*/
+
+/*CONTENT*/
+/*.WKcontainer {*/
+/*    background-image: url('./assets/Wakanda/Pantherwakanda2.png');*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    padding: 20px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 400px;*/
+/*}*/
+
+.WKcontainer {
+    margin: 0 50px;
+}
+
+.contentSection {
+    background: linear-gradient(to right, #010101, #263654);
+}
+
+.text-columns {
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
+.column h2 {
+    margin-top: 100px;
+}
+
+/*END CONTENT*/
