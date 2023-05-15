@@ -266,7 +266,6 @@ body {
 
 .enigmeHero {
     background: linear-gradient(to right, #010101, #263654);
-
 }
 
 .textEnigme {
@@ -284,3 +283,15 @@ body {
 }
 
 /*ENDHERO*/
+
+
+/*CONTENT*/
+.enigmeHero h2{
+    padding: 100px 0;
+    margin: 0 100px;
+}
+
+.transcript {
+    margin: 0 100px;
+}
+/*END CONTENT*/
