@@ -266,6 +266,7 @@ body {
 
 .enigmeHero {
     background: linear-gradient(to right, #010101, #263654);
+    overflow: hidden;
 }
 
 .textEnigme {
