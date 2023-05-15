@@ -392,4 +392,28 @@ body {
     font-family: Cantarell, Arial, sans-serif;
 }
 
+
+.containerProfile {
+    position: relative;
+}
+
+.profile {
+    background-color: #FFFFFF;
+    border-radius: 38px;
+    padding: 20px;
+    max-width: 400px;
+    position: relative;
+    z-index: 2;
+    margin-top: 337px;
+}
+
+.overlay-image {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: 1;
+    width: 300px;
+    top: -255px;
+    left: 76px;
+}
 /*END PROFIL*/
