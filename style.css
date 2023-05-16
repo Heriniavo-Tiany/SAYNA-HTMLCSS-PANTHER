@@ -240,6 +240,11 @@ body {
 
 .center-images img {
     margin-bottom: -215px; /* Adjust the value to create overlap */
+    transition: transform 0.3s ease;
+}
+
+.center-images:hover img {
+    transform: scale(1.1);
 }
 
 @media (max-width: 800px) {
