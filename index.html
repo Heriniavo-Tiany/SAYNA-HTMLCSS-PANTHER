@@ -249,7 +249,12 @@
                 <p class="cantarell"><input type="email" name="email" placeholder="Email" id="email"></p>
                 <p class="cantarell"><textarea placeholder="Message" name="msg" id="msg" cols="30" rows="10"></textarea>
                 </p>
-                <p class="cantarell"><input type="submit" id="envoyer" value="ENVOYER"></p>
+                <div id="myPopup" class="popup">
+                    <button class="close-btn white">x</button>
+                    <p class="beyno">Opération Effectuee</p>
+                </div>
+                <p class="cantarell"><input type="submit" id="myButton" value="ENVOYER"></p>
+
             </form>
         </center>
     </div>
@@ -288,6 +293,20 @@
 </footer>
 <!--END FOOTER-->
 
+<script>
 
+    const myButton = document.getElementById("myButton");
+    const myPopup = document.getElementById("myPopup");
+    const closeBtn = myPopup.querySelector(".close-btn");
+
+    myButton.addEventListener("click", function(event) {
+        event.preventDefault(); // prevent default behavior of button click
+        myPopup.style.display = "block"; // display the popup
+    });
+
+    closeBtn.addEventListener("click", function(event) {
+        myPopup.style.display = "none";
+    });
+</script>
 </body>
 </html>
