@@ -526,3 +526,26 @@ textarea {
     transition: filter 0.3s ease;
 }
 /*END SOCIAL ICONS*/
+
+
+
+/*FADE IN*/
+body {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fadeSlideInLeft 0.5s ease forwards;
+}
+
+@keyframes fadeSlideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+/*FADE IN*/
