@@ -478,3 +478,23 @@ textarea {
 }
 
 /*END ANIMATIONS*/
+
+
+/*SOCIAL ICONS*/
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 170px;
+    left: 34px;
+    gap: 10px;
+}
+
+
+/*END SOCIAL ICONS*/
