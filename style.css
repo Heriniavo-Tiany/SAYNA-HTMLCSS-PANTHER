@@ -496,5 +496,21 @@ textarea {
     gap: 10px;
 }
 
+#facebook:hover {
+    content: url("./assets/All/icon_facebook_white.png");
+}
+
+#insta:hover {
+    content: url("./assets/All/icon_instagram_white.png");
+}
+
+#tiktok:hover {
+    content: url("./assets/All/icon_tiktok_white.png");
+}
+
+#twitter:hover {
+    content: url("./assets/All/icon_twitter_white.png");
+}
+
 
 /*END SOCIAL ICONS*/
