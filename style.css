@@ -101,14 +101,14 @@ body {
     margin-right: 100px;
 }
 
-.nav-links a {
+.nav-links .inactive {
     margin-right: 50px;
     text-decoration: none;
     color: #FFF;
     position: relative;
 }
 
-.nav-links a::after {
+.nav-links .inactive::after {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -120,9 +120,17 @@ body {
     transition: transform 0.3s ease;
 }
 
-.nav-links a:hover::after {
+.nav-links .inactive:hover::after {
     transform: scaleX(1);
 }
+
+.nav-links .active {
+    margin-right: 50px;
+    text-decoration: underline;
+    color: var(--lavender);
+    position: relative;
+}
+
 
 /*END NAVBAR*/
 
@@ -461,3 +469,12 @@ textarea {
 }
 
 /*END CONTACT*/
+
+
+
+/*ANIMATIONS*/
+.active {
+    color: var(--lavender);
+}
+
+/*END ANIMATIONS*/
